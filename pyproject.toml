@@ -4,6 +4,15 @@ version = "0.1.0"
 description = "AI Chatbot using local LLM via Ollama and IP Fabric MCP server"
 readme = "README.md"
 requires-python = ">=3.12"
+dependencies = [
+    "ipfabric~=7.0",
+    "langchain>=0.3.26",
+    "langchain-community>=0.3.26",
+    "langchain-ollama>=0.3.3",
+    "mcp>=1.9.4",
+    "ollama>=0.5.1",
+    "streamlit>=1.46.0",
+]
 
 #[[tool.uv.index]]
 #name = "your-index"

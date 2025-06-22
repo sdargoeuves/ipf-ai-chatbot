@@ -1,5 +1,5 @@
 def main():
-    print("Hello from ipf-mcp-server!")
+    print("Hello from ipf-ai-chatbot!")
 
 
 if __name__ == "__main__":
